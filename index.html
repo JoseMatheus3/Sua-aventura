@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/Caverna.jpg" alt="Sua aventura está començando">
+            <p>Ao entrar você se depara com diversas aranhas e cobras querendo te pegar</p>
+            <button class="btn-proximo" data-proximo="1">Correr para fora</button>
+            <button class="btn-proximo" data-proximo="2">Ir pelas cordas</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Acabou sua aventura.</p>
+            <button class="btn-proximo" data-proximo="0">Voltar</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Você conseguiu ir ao outro lado, parabéns!! Você está no outro lado</p>
+            <button class="btn-proximo" data-proximo="3">Explorar</button>
+        </div>  
+
+        <div class="passo" id="passo-3">
+            <p>No outro lado da caverna você encontra o tesouro, ao pegar o tesouro, ao pegar o tesouro você ativa uma armadilha.</p>
+            <button class="btn-proximo" data-proximo="4">Correr</button>
+            <button class="btn-proximo" data-proximo="5">Se esconder</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você conseguiu escapar, mas tem duas saidas.</p>
+            <button class="btn-proximo" data-proximo="6">Esquerda</button>
+            <button class="btn-proximo" data-proximo="7">Direita</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/Pedra.webp" alt="Game Over">
+            <p>A bola passou por cima de você.</p>
+            </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/Vitoria.jpg" alt="PARÁBENS">
+            <p>PARÁBENS!!! Você escapou!!</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Não tinha nada.</p>
+            <button class="btn-proximo" data-proximo="4">Retornar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
